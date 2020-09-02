@@ -314,6 +314,10 @@ p {
   margin-bottom: 30px;
   outline: 1px solid #eeeeee;
 }
+.gallery:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 
 .gallery:nth-child(3n) {
   margin-right: 0;
@@ -351,6 +355,9 @@ p {
   width: calc((100% - 30px * 3) / 4);
   margin-right: 30px;
   background-color: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .team:nth-child(4n) {
   margin-right: 0;
