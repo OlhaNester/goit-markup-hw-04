@@ -82,6 +82,8 @@ footer .logo {
 
 .section-team {
   background-color: var(--sec-background-color);
+  padding-top: 94px;
+  padding-top: 94px;
 }
 
 .link {
@@ -118,7 +120,6 @@ footer .logo {
   line-height: 1.17;
   text-align: center;
   margin: 0;
-  padding-top: 94px;
   padding-bottom: 50px;
 }
 
@@ -267,16 +268,24 @@ footer .logo {
   margin-left: 32px;
   margin-right: 32px;
 }
-
-.social-link:hover {
-  /* background-color: var(--accent-colour); */
+.social-link {
+  display: block;
 }
+.social-item {
+  width: 44px;
+  height: 44px;
+
+}
+
+/* .social-link:hover {
+  /* background-color: var(--accent-colour); */
+} */
 
 .social-icon {
   width: 44px;
   height: 44px;
   fill: #afb1b8;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   /* background-color: var(--accent-colour); */
 }
 
@@ -412,4 +421,36 @@ p {
 }
 .team:nth-child(4n) {
   margin-right: 0;
+}
+
+.section-clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  /* background-color:var(--primary-background-color); */
+
+}
+.list-clients {
+  display: flex;
+  justify-content: space-between;
+
+}
+.clients-item {
+  width: 170px;
+  height: 90px;
+  border: 1px solid #AFB1B8;
+box-sizing: border-box;
+border-radius: 4px;
+
+}
+.client-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+
+}
+.clients { 
+  width: 44.27px;
+  height: 49.23px;
 }
