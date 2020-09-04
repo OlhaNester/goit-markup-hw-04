@@ -258,7 +258,7 @@ footer .logo {
   height: 120px;
   padding: 25px 100px;
 }
-.social-link {
+.social-list {
   display: flex;
   width: 206px;
   height: 44px;
@@ -267,11 +267,24 @@ footer .logo {
   margin-left: 32px;
   margin-right: 32px;
 }
+
+.social-link:hover {
+  /* background-color: var(--accent-colour); */
+}
+
 .social-icon {
   width: 44px;
   height: 44px;
-  fill: red;
+  fill: #afb1b8;
+  border-radius: 50%;
+  /* background-color: var(--accent-colour); */
 }
+
+.social-icon:hover {
+  fill: white;
+  background-color: var(--accent-colour);
+}
+
 .name-work {
   font-size: 16px;
   line-height: 1.87;
