@@ -55,11 +55,11 @@ footer .logo {
 
 .list-feature {
   display: flex;
-  flex: flex-wrap;
+  flex-wrap: wrap;
 }
 
 .feature {
-  width: calc ((100%-90px)/4);
+  width: calc((100% - 90px)/4);
   margin-right: 30px;
 }
 
@@ -83,7 +83,7 @@ footer .logo {
 .section-team {
   background-color: var(--sec-background-color);
   padding-top: 94px;
-  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .link {
@@ -274,17 +274,16 @@ footer .logo {
 .social-item {
   width: 44px;
   height: 44px;
-
 }
 
-/* .social-link:hover {
-  /* background-color: var(--accent-colour); */
-} */
+.social-link:hover {
+background-color: var(--accent-colour); 
+}
 
 .social-icon {
   width: 44px;
   height: 44px;
-  fill: #afb1b8;
+  fill:black;
   /* border-radius: 50%; */
   /* background-color: var(--accent-colour); */
 }
@@ -352,6 +351,19 @@ p {
 .adress .item + .item {
   margin-left: 50px;
 }
+.adress-envelope {
+  width: 16px;
+  height: 12px;
+}
+.adress-phone {
+  width: 10px;
+  height: 16px;
+}
+.item {
+  display: inline-flex;
+  align-items: center;
+   
+  }
 
 .menu {
   display: flex;
@@ -394,7 +406,7 @@ p {
 }
 .list-example {
   display: flex;
-  flex: flex-wrap;
+  flex-wrap: wrap;
 }
 .example {
   width: calc((100% - 30px * 2) / 3);
@@ -407,7 +419,7 @@ p {
 .list-team {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 94px;
+  
 }
 
 .team {
@@ -435,6 +447,9 @@ p {
 
 }
 .clients-item {
+  align-items: center;
+    display: flex;
+    justify-content: center;
   width: 170px;
   height: 90px;
   border: 1px solid #AFB1B8;
@@ -443,7 +458,7 @@ border-radius: 4px;
 
 }
 .client-link {
-  display: flex;
+   display: block;
   justify-content: center;
   align-items: center;
   width: 170px;
