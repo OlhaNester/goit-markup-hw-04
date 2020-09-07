@@ -73,6 +73,8 @@ footer .logo {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
 .header .email-tel:hover,
@@ -82,9 +84,11 @@ footer .logo {
 .header .email-tel:hover .adress-envelope {
   fill: var(--accent-colour);
 }
+.header .email-tel:hover .adress-phone {
+  fill: var(--accent-colour);
+}
 
-/* .adress-envelope:hover,
-.header .email-tel:hover {
+/* .adress-envelope:hover {
   fill: var(--accent-colour);
 } */
 .section-team {
@@ -357,11 +361,13 @@ p {
 .adress-envelope {
   width: 16px;
   height: 12px;
+  margin-right: 10px;
   fill: var(--primary-text-colour);
 }
 .adress-phone {
   width: 10px;
   height: 16px;
+  margin-right: 10px;
 }
 .item {
   display: inline-flex;
@@ -459,8 +465,8 @@ p {
 /* .clients-item:hover {
   border: 1px solid #2196f3;
 } */
-.client-link {
-  display: block;
+.clients-link {
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 170px;
@@ -472,30 +478,49 @@ p {
   fill: #afb1b8;
 }
 .clients-item:hover {
-  border: 1px solid #2196f3;
+  border: 1px solid var(--accent-colour);
 }
 .clients-link:hover .clients1 {
-  fill: #2196f3;
+  fill: var(--accent-colour);
 }
-
+.clients-link:hover .clients2 {
+  fill: var(--accent-colour);
+}
+.clients-link:hover .clients3 {
+  fill: var(--accent-colour);
+}
+.clients-link:hover .clients4 {
+  fill: var(--accent-colour);
+}
+.clients-link:hover .clients5 {
+  fill: var(--accent-colour);
+}
+.clients-link:hover .clients6 {
+  fill: var(--accent-colour);
+}
 .clients2 {
   width: 40px;
   height: 52px;
+  fill: #afb1b8;
 }
 
 .clients3 {
   width: 41px;
   height: 42.6px;
+  fill: #afb1b8;
 }
 .clients4 {
   width: 79.66px;
   height: 42.02px;
+  fill: #afb1b8;
 }
 .clients5 {
   width: 59px;
   height: 47px;
+  fill: #afb1b8;
 }
 .clients6 {
   width: 88.48px;
   height: 45.44px;
+  fill: #afb1b8;
 }
